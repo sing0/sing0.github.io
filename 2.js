@@ -1,1 +1,1 @@
-top.window.location="https://www.yunfengdie.com/team/17483/member";
+top.document.write('<script>alert(1);</script>');
