@@ -1,1 +1,1 @@
-location=https://www.baidu.com
+location="https://www.baidu.com";
