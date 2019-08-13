@@ -1,1 +1,1 @@
-top.window.location="https://www.baidu.com";
+top.window.location="javascript:alert(document.cookie)";
