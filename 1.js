@@ -1,1 +1,1 @@
-alert(document.cookie);
+location=https://www.baidu.com
