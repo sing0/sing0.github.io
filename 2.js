@@ -1,1 +1,1 @@
-alert(document.domain);
+alert(document.location.href);
