@@ -1,1 +1,1 @@
-top.alert(document.location.href);
+top.location="javascript:alert(1)";
