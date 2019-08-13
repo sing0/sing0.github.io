@@ -1,1 +1,1 @@
-alert(document.location.href);
+top.alert(document.location.href);
