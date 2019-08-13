@@ -1,1 +1,1 @@
-top.document.write('<script>alert(1);</script>');
+top.window.alert(1);
