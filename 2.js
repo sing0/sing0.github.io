@@ -4,7 +4,7 @@ $('#preview').html('12312312.png');
             url: "https://box.saas.huaweicloud.com/user/info",
             data: {},
             success: function(result) {
-                var data = JSON.parse(result);
-                alert(data);
+                
+                alert(result);
             }
         });
