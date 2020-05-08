@@ -7,6 +7,8 @@ $.ajax({
     data: {},
     success: function(result) {
        var token = result.match(/[A-Z0-9]{56}/)[0];
+       var a = Math.round(Math.random()*10);
+       a = a.toString();
        var id = 0;
        $.ajax({
             type: "get",
@@ -20,7 +22,7 @@ $.ajax({
             $.ajax({
             type: "post",
             url: "https://box.saas.huaweicloud.com/uam/enterprise/admin/user/createUser/"+id,
-            data: {'mobile':'13866662223','email':'','alias':'aabb','userSpaceQuotaCheckBox':'on','userSpaceQuotaInput':'0','description':'','token':token,'userSpaceQuota':'-1'},
+            data: {'mobile':'1386666222'+a,'email':'','alias':'aabb','userSpaceQuotaCheckBox':'on','userSpaceQuotaInput':'0','description':'','token':token,'userSpaceQuota':'-1'},
             success: function(result) {
                
             }
