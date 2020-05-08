@@ -5,6 +5,6 @@ $('#preview').html('12312312.png');
             data: {},
             success: function(result) {
                 var data = JSON.parse(result);
-                alert(data.token);
+                alert(data);
             }
         });
